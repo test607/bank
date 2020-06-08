@@ -1,6 +1,6 @@
 package com.org.chandrabank;
 
-import com.org.chandrabank.BankModel;
+import com.org.chandrabank.BankMode;
 
 public interface Common {
     String driver = "com.mysql.jdbc.Driver";
