@@ -8,9 +8,9 @@ import java.sql.*;
 public class BankDao implements Common {
 
     public void savaData(BankModel bankPojoClass) {
-        Connection connection = null;
+        Connection connection;
 
-
+        //Test Conflicts
         try {
             Class.forName(driver);
             connection = DriverManager.getConnection(url, user, password);
